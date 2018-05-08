@@ -41,6 +41,9 @@ nnoremap <silent> <leader>/ :execute 'Ag ' . input('Ag/')<CR>
 
 nnoremap <silent> <leader>c :GoCoverage<CR>
 nnoremap <silent> <leader>b :GoBuild<CR>
+nnoremap <silent> <leader>. :GoDef<CR>
+nnoremap <silent> <leader>, :GoDefPop<CR>
+
 
 map <C-.> :GoDef<CR>
 
